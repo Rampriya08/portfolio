@@ -1,0 +1,109 @@
+:root{
+    --v:#BD83B8;
+    --ss:#713d7c;
+    --w:#f5f5f5;
+    --d:#efccf7;
+
+}
+body{
+  background:linear-gradient(to top right, #713d7c 50%,white 50%);
+}
+.main{
+    margin: 125px 200px;
+    border: 3px solid var(--ss);
+    border-radius: 6px;
+    background-color: var(--w);
+    padding: 20px;
+    
+
+}
+
+.logo{
+
+    background-color: var(--ss);
+    width: 80%;
+
+}
+.logo label{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+	position:relative;
+	font-weight: bolder;
+    background-color: var(--ss);
+    padding-left: 10%;
+    padding-right: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid var(--ss);
+    color: white;
+
+}
+.logo label:hover{
+text-shadow: 0px 0px 10px rgb(247, 241, 244), 0px 0px 20px rgb(247, 241, 244), 0px 0px 30px rgb(247, 241, 244);	
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+    top:150px;
+    float: right;
+    margin-left: 895px;
+    position:absolute;
+    border: 2px solid var(--ss);
+
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 330px;
+    overflow: auto;
+    background-color: var(--v);
+}
+  .sidebar div {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+ 
+  }
+  
+
+  .sidebar div.active {
+    background-color: var(--ss);
+    color: white;
+  }
+  
+
+  .sidebar div:hover:not(.active){
+    background-color: var(--d);
+    color: var(--ss);
+  }
+  
+
+  div .content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 330px;
+  }
+  footer{
+    background-color: var(--ss);
+    border: 2px solid var(--ss);
+    margin: 0px -18px;
+  }
+footer .fot{
+    width: 50%;
+    display: block;
+    float: left;
+    position: static;
+    align-items: center;
+    
+}
+.des1,.des2{
+  padding-left:700px;
+
+}

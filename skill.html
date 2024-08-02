@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $('#pro1').animate({"value":"80"},2000) ;
+           $('#pro2').animate({"value":"95"},2000);           
+           $('#pro3').animate({"value":"93"},2000);
+           $('#pro4').animate({"value":"92"},2000);
+           $('#pro5').animate({"value":"96"},2000);
+           $('#pro6').animate({"value":"85"},2000);
+           $('#pro7').animate({"value":"80"},2000); 
+    })
+    </script>
+
+    <style>
+        .c3{
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 150%;
+
+        }
+        progress{
+            accent-color: #713d7c;
+        
+        }
+        .c3 div{
+            width: 33%;
+            float: left;
+        }
+        .k{
+            opacity: 0;
+        }
+
+        
+
+    </style>
+</head>
+<body><br>
+    <div class="c3">
+    <h3>SKILL</h3>
+    <div><center>
+        <label>RPA Technology      </label><br>
+        <label>Javascrit       </label><br>
+        <label>HTML           </label><br>
+        <label>CSS            </label><br>
+        <label>PHP           </label><br>
+        <label>JQUERY           </label><br>
+        <label>      C          </label><br>
+    </center>
+    </div>
+<div>
+<progress id="pro1" value="0" max="100"></progress><br>
+<progress id="pro2" value="0" max="100"></progress><br>
+<progress id="pro3" value="0" max="100"></progress><br>
+<progress id="pro4" value="0" max="100"></progress><br>
+<progress id="pro5" value="0" max="100"></progress><br>
+<progress id="pro6" value="0" max="100"></progress><br>
+<progress id="pro7" value="0" max="100"></progress><br>
+</div>
+<div class="k">
+    <progress id="pro1" value="0" max="100"></progress><br>
+    <progress id="pro2" value="0" max="100"></progress><br>
+    <progress id="pro3" value="0" max="100"></progress><br>
+    <progress id="pro4" value="0" max="100"></progress><br>
+    <progress id="pro5" value="0" max="100"></progress><br>
+    <progress id="pro6" value="0" max="100"></progress><br>
+    <progress id="pro7" value="0" max="100"></progress><br>
+</div>
+</div>
+<br>
+<br>
+
+</body>
+</html>

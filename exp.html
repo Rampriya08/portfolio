@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c2{
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 150%;
+
+        }
+    </style>
+    <script type="text/javascript" src="jquery-3.7.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#p1').show();
+            
+            $('#ph1').mouseover(function(){
+                $('#p1').show();
+                ;$('#p2').hide();
+                $('#p3').hide()
+
+            })
+            $('#ph2').mouseover(function(){
+                $('#p2').show();
+                $('#p1').hide();
+                $('#p3').hide();
+
+
+
+            })
+            $('#ph3').mouseover(function(){
+                
+                $('#p3').show();
+                $('#p1').hide();
+                $('#p2').hide();
+
+
+            })
+    
+    })
+
+
+    </script>
+    <style>
+        .c2{
+            position:relative;
+        }
+    .c2 div{
+        display: none;
+        text-indent: 50px;
+
+    }
+    .c2 label{
+        font-size: 17px;
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body><br>
+    <div class="c2">
+    <h3>PROJECTS</h3>
+    <label id="ph1">Competition Winner</label><br>
+    <div id="p1">Web Desiging&nbsp;-&nbsp;I&nbsp;(Department Level)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debugging&nbsp;-&nbsp;II&nbsp;(Department Level,Inter College Level)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stress Interview&nbsp;-&nbsp;III&nbsp;(Inter College Level)</div><br>
+    <label id="ph2">DEARTMENT LEVEL FORUM MEMBER</label><br>
+    <div id="p2" > In my UG I serve as a Student Relationship Officer(SRO) in our Department level Forum(XACS-Xavier Association Of Computer Science).</div><br>
+    <label id="ph3">CLASS AMBASSADOR</label><br>
+    <div id="p3">In my PG I Serve as a Class Ambassador.</div><br>
+
+    
+</div>
+
+</body>
+</html>
